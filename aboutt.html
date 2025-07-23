@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Casa Milano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 10%;
+            gap: 50px;
+        }
+
+        .about-text {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .about-text h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .about-text .brand {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .about-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .about-image img {
+            max-width: 90%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: linear-gradient(90deg, #1a1a1a, #141414);
+            position: sticky;
+            top: 0;
+            z-index: 500;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        nav h1 {
+            color:white;
+            font-size: 26px;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ddd;
+            font-size: 18px;
+            transition: 0.3s;
+            font-weight: 400;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: #ff4d4d;
+        }
+        span{
+            color: red;
+        }
+
+
+    </style>
+</head>
+
+<body>
+     <nav>
+        <h1>About Me</h1>
+        <ul>
+            <li><a href="bhormodel.html">Home</a></li>
+        </ul>
+    </nav>
+    <section class="about-section">
+        <div class="about-text">
+            <h1>Evol<span>ution</span></h1>
+            
+            <p>
+                 My journey began with a deep curiosity for technology, a passion that soon became the foundation of everything I do. 
+            What started as experimenting with code and exploring websites gradually grew into a fascination for building digital 
+            experiences that inspire and connect people. Each line of code became more than just a task — it became a part of my 
+            story, transforming my passion into purpose.
+            </p>
+            <p>
+                As a BCA graduate and an aspiring MERN Stack developer, I see every project as more than just work — it’s an opportunity 
+            to create, innovate, and grow. Each challenge brings new skills and insights, pushing me toward becoming a skilled, 
+            professional web developer.
+            </p>
+            
+        </div>
+
+        <div class="about-image">
+            <img src="evoltution.jpg" alt="Casa Milano Design">
+        </div>
+    </section>
+</body>
+
+</html>
